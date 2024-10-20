@@ -1,0 +1,15 @@
+id = "squirrel"
+name = "Squirrel"
+version = "0.0.1"
+schema_version = 1
+authors = ["Taliesin Perscilla \"FlutterTal\" Ambroise <talunion72@gmail.com>"]
+description = "Squirrel language support for Zed"
+repository = "https://github.com/FlutterTal/zed-squirrel"
+
+[language_servers.squirrel]
+name = "Squirrel LSP"
+language = "Squirrel"
+
+[grammars.squirrel]
+repository = "https://github.com/tree-sitter-grammars/tree-sitter-squirrel"
+commit = "072c969749e66f000dba35a33c387650e203e96e"
