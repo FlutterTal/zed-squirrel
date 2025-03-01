@@ -1,13 +1,13 @@
 id = "squirrel"
 name = "Squirrel"
-version = "0.0.1"
+version = "0.1.0"
 schema_version = 1
-authors = ["Taliesin Perscilla \"FlutterTal\" Ambroise <talunion72@gmail.com>"]
+authors = ["Taliesin Perscilla Ambroise <talunion72@gmail.com>"]
 description = "Squirrel language support for Zed"
 repository = "https://github.com/FlutterTal/zed-squirrel"
 
-[language_servers.squirrel]
-name = "Squirrel LSP"
+[language_servers.squirrel_language_server]
+name = "Squirrel Language Server"
 language = "Squirrel"
 
 [grammars.squirrel]

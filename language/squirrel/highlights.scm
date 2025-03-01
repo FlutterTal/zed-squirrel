@@ -75,7 +75,7 @@
 
 ; Variables
 
-(identifier) @variable 
+(identifier) @variable
 
 (local_declaration
   (identifier) @variable.local
@@ -152,7 +152,7 @@
   (lambda_expression
     "@" @symbol))
 
-(call_expression 
+(call_expression
   [
    function: (identifier) @function.builtin
    function: (global_variable "::" (_) @function.builtin)
@@ -175,7 +175,7 @@
    "len" "slice" "find" "tolower" "toupper"
 
    ; Table Methods
-   "rawget" "rawset" "rawdelete" "rawin" "clear" 
+   "rawget" "rawset" "rawdelete" "rawin" "clear"
    "setdelegate" "getdelegate" "filter" "keys" "values"
 
    ; Array Methods
